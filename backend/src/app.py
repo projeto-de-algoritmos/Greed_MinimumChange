@@ -1,7 +1,9 @@
 from flask import Flask
+from flask_cors import CORS
 import changing as chg
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/")
 def Hello():
