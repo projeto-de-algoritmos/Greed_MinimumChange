@@ -13,7 +13,7 @@
 
 .home-content {
     width: 70%;
-    height: 640px;
+    height: 60%;
     background-color: var(--color2);
     border-radius: 20px;
     padding: 20px 30px;
@@ -29,14 +29,15 @@
 }
 
 .coins-content {
-    height: 150px !important;
+    height: auto !important;
     border-radius: 10px;
+    margin-bottom: 3%;
 }
 
 .coin-card {
     background-color: var(--money);
     height: 130px;
-    width: 80%;
+    width: 75%;
     border-radius: 50%;
 }
 
@@ -45,8 +46,9 @@
 }
 
 .value-content {
-    height: 150px !important;
+    height: auto !important;
     border-radius: 10px;
+    margin-bottom: 3%;
 }
 
 .value-content input {
@@ -77,8 +79,21 @@
 }
 
 .result-content {
-    background-color: var(--color5);
-    height: 150px !important;
+    height: auto !important;
+    margin-bottom: 3%;
     border-radius: 10px;
     opacity: 0.6;
+}
+
+.result-content button {
+    padding: 15px 70px;
+    border-radius: 10px;
+    border: none !important;
+    background-color: var(--color4);
+    color: var(--white);
+    font-size: 1.2rem;
+}
+.result-content button:hover {
+    opacity: 0.6;
+    transition: 0.5s;
 }
