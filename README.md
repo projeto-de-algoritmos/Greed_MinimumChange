@@ -18,7 +18,21 @@ O projeto em questão se trata de uma aplicação onde através da implementaç�
 OBS: O usuário deverá informar o valor já convertido para centavos. Exemplo: R$1.00 deverá ser informado como 100, R$2.00 deverá ser informado como 200 e assim por diante.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+## - HOME
+
+<img src="public/assets/Home.jpeg" width="500px"/>
+
+## - Busca pela quantidade de Moedas
+
+<img src="public/assets/busca.jpeg" width="500px"/>
+
+## - Validação erro negativo
+
+<img src="public/assets/validacao.jpeg" width="500px"/>
+
+## - Validação erro decimal
+
+<img src="public/assets/errodecimal.jpeg" width="500px"/>
 
 ## Instalação 
 **Linguagem**:  Python (Backend) / Javascript (Frontend)<br>
@@ -61,6 +75,12 @@ Caso não abra automáticamente, para acessar a aplicação abra seu navegador n
 
 ## OBS:
 - O backend e frontend fazem uso respectivamente das portas:  http://localhost:5000 e http://localhost:3000, dessa forma certifique-se de que estejam livres para rodar a aplicação.
+
+- Clique [aqui](/public/assets/Greed_PA.mp4) para baixar o vídeo.
+
+- Link para video no Youtube [aqui](https://youtu.be/bFywAVXVRQc)
+
+- Caso nenhuma das opções esteja disponível, o vídeo encontrasse dentro do repositório no caminho "public/assets/Greed_PA.mp4".
 
 
 
