@@ -117,7 +117,7 @@ const Home = () => {
                             {
                                 coins.map((coin, index) => {
                                     return (
-                                        <div className="col-2 centraliza" key={index}>
+                                        <div className="col-md-2 col-4 mt-md-1 mt-3 centraliza" key={index}>
                                             <div className="coin-card centraliza">
                                                 <p className="text-center centraliza">{coin.value} {applicationImages.money}</p>
                                             </div>
